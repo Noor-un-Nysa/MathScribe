@@ -30,7 +30,7 @@ Clone the repository
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/MathScribe.git
+git clone https://github.com/noor-un-nysa/MathScribe.git
 Install the dependencies
 
 bash
