@@ -1,0 +1,37 @@
+📦 Deployment Guide for MathScribe
+
+✅ System Requirements
+- Python 3.8 or above  
+- pip (Python package installer)  
+- Virtualenv (recommended)
+
+🛠️ Step-by-Step Setup
+
+1. Clone the Repository
+git clone <your-repo-link>
+cd <project-folder>
+
+2. Create and Activate Virtual Environment
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
+
+3. Install Required Packages
+pip install django>=4.0 tensorflow>=2.10 opencv-python>=4.5 pillow>=9.0 numpy>=1.20
+
+4. Apply Migrations
+python manage.py makemigrations
+python manage.py migrate
+
+5. Create Superuser (Optional)
+python manage.py createsuperuser
+
+6. Run the Server
+python manage.py runserver
+
+Visit: http://127.0.0.1:8000 in your browser.
+
+🚀 Ready for Production?
+Use services like Heroku, PythonAnywhere, or Render for deployment. Make sure to:
+- Configure allowed hosts in settings.py
+- Use gunicorn or daphne for serving
+- Set DEBUG = False in production

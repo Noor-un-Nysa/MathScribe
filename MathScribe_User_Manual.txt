@@ -1,0 +1,28 @@
+
+MathScribe - User Manual
+
+1. Installation:
+   - Install the MathScribe app on your Android device.
+   - Sign in using your email or Google account.
+
+2. Usage:
+   - Home Screen: Access calculator, handwritten input, and solution modules.
+   - Draw Equation: Use your finger or stylus to write the equation.
+   - Solve: Tap 'Solve' to convert your handwriting into LaTeX and see the solution.
+   - History: View past solved problems.
+
+3. Features:
+   - Real-time handwriting recognition.
+   - Symbol mapping and LaTeX rendering.
+   - Step-by-step calculus solutions.
+
+4. Tips:
+   - Write clearly with proper spacing.
+   - Use two fingers to zoom/pan the canvas.
+   - Tap the erase icon to clear the canvas.
+
+5. Troubleshooting:
+   - If app crashes, restart it and ensure all permissions are granted.
+   - For login issues, check internet connection.
+
+
